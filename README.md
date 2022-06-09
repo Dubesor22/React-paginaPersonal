@@ -1,3 +1,12 @@
+# Intro
+
+simple personal page with Bio info. exercise the bridge tech.
+
+author: David Ubeda Soriano.
+
+[link al enunciado](https://docs.google.com/document/d/1Cs2s-tFPd06gqFQGZPLGk41KooGBK6NwHxREnetlShE/edit#heading=h.4cbwyvntsk2)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
