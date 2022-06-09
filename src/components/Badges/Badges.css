@@ -1,0 +1,23 @@
+.badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.badges {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+.tecnologies {
+  color: #fff;
+}
