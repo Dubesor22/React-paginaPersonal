@@ -4,8 +4,10 @@ simple personal page with Bio info. exercise the bridge tech.
 
 author: David Ubeda Soriano.
 
-[link al enunciado](https://docs.google.com/document/d/1Cs2s-tFPd06gqFQGZPLGk41KooGBK6NwHxREnetlShE/edit#heading=h.4cbwyvntsk2)
+Dia 2 [link al enunciado](https://docs.google.com/document/d/1Cs2s-tFPd06gqFQGZPLGk41KooGBK6NwHxREnetlShE/edit#heading=h.4cbwyvntsk2)
+Dia 3 [link al enunciado](https://docs.google.com/document/d/1OnnNSgrRynEEbSykz1d7ce_p0qDlx39XnnMmq_RlDxg/edit)
 
+![imagen](https://user-images.githubusercontent.com/96850699/173696398-7aed6673-3578-4d8a-b95e-464588adc8aa.png)
 
 # Getting Started with Create React App
 
