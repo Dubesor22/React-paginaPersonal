@@ -17,10 +17,18 @@
   display: flex;
   align-items: center;
   font-size: 2em;
+  gap: 0.5em;
 }
 
 .navbar-brand img {
   height: auto;
   width: 80px;
   border-radius: 50%;
+}
+
+.container-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
 }

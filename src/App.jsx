@@ -2,8 +2,20 @@ import "./App.css";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
 import { Badges } from "./components/Badges/Badges";
+import Contact from "./components/Contact/Contact";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
+  // function onClick(e) {
+  //   console.log(e.target);
+  //   if (e.target.includes("emojiterra")) {
+  //     e.target.src = ninja2;
+  //   } else {
+  //     e.target.src =
+  //       "https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f977.png";
+  //   }
+  // }
+
   const myBio = {
     name: "David",
     surname: "Un Ninja Coder Cualquiera",
@@ -55,13 +67,16 @@ function App() {
   ];
 
   return (
-    <body>
-      <Header />
-      <div className="App">
-        <Home myBio={myBio} />
+    <div className="App">
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home myBio={myBio} />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
         <Badges myBadges={myBadges} />
-      </div>
-    </body>
+      </BrowserRouter>
+    </div>
   );
 }
 

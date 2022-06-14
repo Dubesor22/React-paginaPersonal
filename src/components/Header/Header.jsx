@@ -1,11 +1,12 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
     <nav class="navbar ">
-      <div class="container ">
-        <a class="navbar-brand" href="#">
+      <div className="container-links ">
+        <Link to="/" className="navbar-brand">
           <img
             src="https://e7.pngegg.com/pngimages/581/573/png-clipart-ninja-holding-red-ninja-laptop-illustration-ninja-computer-programming-learning-study-skills-avatar-heroes-cartoon.png"
             alt=""
@@ -14,7 +15,10 @@ export const Header = () => {
             class="d-inline-block align-text-top"
           />
           &nbsp;&nbsp;Mi Biografia
-        </a>
+        </Link>
+        <Link className="navbar-brand" to="/contact">
+          Contacto
+        </Link>
       </div>
     </nav>
   );
