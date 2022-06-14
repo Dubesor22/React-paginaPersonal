@@ -1,6 +1,6 @@
 # Intro
 
-simple personal page with Bio info. exercise the bridge tech.
+simple personal page with Bio info and Router Contact(react Hooks). exercise the bridge tech.
 
 author: David Ubeda Soriano.
 
